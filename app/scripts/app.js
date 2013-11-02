@@ -7,6 +7,9 @@ angular.module('yoExampleApp', [])
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/binding', {
+        templateUrl: 'views/01-binding.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
