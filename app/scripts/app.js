@@ -43,6 +43,9 @@ angular.module('yoExampleApp', [])
       .when('/basic-behaviors', {
         templateUrl: 'views/12-basic-behaviors.html'
       })
+      .when('/useful-behaviors', {
+        templateUrl: 'views/13-useful-behaviors.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
