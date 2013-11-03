@@ -50,6 +50,9 @@ angular.module('yoExampleApp', [])
         templateUrl: 'views/14-directives-talking-to-controllers.html',
         controller: 'TwitterCtrl'
       })
+      .when('/directive-to-directive-communication', {
+        templateUrl: 'views/15-directive-to-directive-communication.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
