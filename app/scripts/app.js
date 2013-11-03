@@ -17,6 +17,9 @@ angular.module('yoExampleApp', [])
       .when('/the-dot', {
         templateUrl: 'views/03-the-dot.html'
       })
+      .when('/sharing-data', {
+        templateUrl: 'views/04-sharing-data.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
