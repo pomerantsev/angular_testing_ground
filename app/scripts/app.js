@@ -23,8 +23,12 @@ angular.module('yoExampleApp', [])
       .when('/method', {
         templateUrl: 'views/05-method.html'
       })
-      .when('/filters',{
+      .when('/filters', {
         templateUrl: 'views/06-filters.html'
+      })
+      .when('/ng-repeat', {
+        templateUrl: 'views/08-ng-repeat.html',
+        controller: 'AvengersCtrl'
       })
       .otherwise({
         redirectTo: '/'
