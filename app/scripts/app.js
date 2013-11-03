@@ -46,6 +46,10 @@ angular.module('yoExampleApp', [])
       .when('/useful-behaviors', {
         templateUrl: 'views/13-useful-behaviors.html'
       })
+      .when('/directives-talking-to-controllers', {
+        templateUrl: 'views/14-directives-talking-to-controllers.html',
+        controller: 'TwitterCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
