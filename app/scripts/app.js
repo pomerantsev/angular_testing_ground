@@ -30,6 +30,10 @@ angular.module('yoExampleApp', [])
         templateUrl: 'views/08-ng-repeat.html',
         controller: 'AvengersCtrl'
       })
+      .when('/built-in-filters', {
+        templateUrl: 'views/09-built-in-filters.html',
+        controller: 'AvengersCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
