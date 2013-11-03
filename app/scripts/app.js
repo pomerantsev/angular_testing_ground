@@ -10,9 +10,12 @@ angular.module('yoExampleApp', [])
       .when('/binding', {
         templateUrl: 'views/01-binding.html'
       })
-      .when('/controllers',{
+      .when('/controllers', {
         templateUrl: 'views/02-controllers.html',
         controller: 'FirstCtrl'
+      })
+      .when('/the-dot', {
+        templateUrl: 'views/03-the-dot.html'
       })
       .otherwise({
         redirectTo: '/'
