@@ -40,6 +40,9 @@ angular.module('yoExampleApp', [])
       .when('/directive-restrictions', {
         templateUrl: 'views/11-directive-restrictions.html'
       })
+      .when('/basic-behaviors', {
+        templateUrl: 'views/12-basic-behaviors.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
