@@ -20,6 +20,9 @@ angular.module('yoExampleApp', [])
       .when('/sharing-data', {
         templateUrl: 'views/04-sharing-data.html'
       })
+      .when('/method', {
+        templateUrl: 'views/05-method.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
