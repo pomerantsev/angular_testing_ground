@@ -37,6 +37,9 @@ angular.module('yoExampleApp', [])
       .when('/first-directive', {
         templateUrl: 'views/10-first-directive.html'
       })
+      .when('/directive-restrictions', {
+        templateUrl: 'views/11-directive-restrictions.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
