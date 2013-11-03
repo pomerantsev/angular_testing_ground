@@ -23,6 +23,9 @@ angular.module('yoExampleApp', [])
       .when('/method', {
         templateUrl: 'views/05-method.html'
       })
+      .when('/filters',{
+        templateUrl: 'views/06-filters.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
