@@ -34,6 +34,9 @@ angular.module('yoExampleApp', [])
         templateUrl: 'views/09-built-in-filters.html',
         controller: 'AvengersCtrl'
       })
+      .when('/first-directive', {
+        templateUrl: 'views/10-first-directive.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
