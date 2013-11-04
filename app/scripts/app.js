@@ -53,6 +53,10 @@ angular.module('yoExampleApp', [])
       .when('/directive-to-directive-communication', {
         templateUrl: 'views/15-directive-to-directive-communication.html'
       })
+      .when('/isolate-scope', {
+        templateUrl: 'views/16-isolate-scope.html',
+        controller: 'ChoreCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
