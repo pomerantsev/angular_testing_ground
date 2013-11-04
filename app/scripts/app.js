@@ -57,6 +57,10 @@ angular.module('yoExampleApp', [])
         templateUrl: 'views/16-isolate-scope.html',
         controller: 'ChoreCtrl'
       })
+      .when('/isolate-scope-1', {
+        templateUrl: 'views/17-isolate-scope-1.html',
+        controller: 'DrinkCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
